@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Channel Remover</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Channel Remover</h1>
+    <div id="addChannelForm">
+      <input
+        type="text"
+        id="channelUsername"
+        placeholder="Enter channel username"
+      />
+      <button id="addChannel">Add Channel</button>
+    </div>
+    <h2>Blocked Channels:</h2>
+    <ul id="channelList"></ul>
+    <button id="exportData">Export Data</button>
+    <input type="file" id="importData" accept=".json" style="display: none" />
+    <button id="importDataBtn">Import Data</button>
+    <script src="popup.js"></script>
+  </body>
+</html>

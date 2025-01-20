@@ -1,0 +1,7 @@
+content.css .yt-channel-blocker-blur {
+  filter: blur(10px);
+}
+
+.yt-channel-blocker-blur:hover {
+  filter: none;
+}
